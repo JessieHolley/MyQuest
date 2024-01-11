@@ -2,5 +2,5 @@
     <string name="app_name">MyQuest</string>
     <string name="qItext">Are all Fruits Sweet?</string>
     <string name="TrueTB">TRUE</string>
-    <string name=""
+    <string name="FalseTB">FALSE</string>
 </resources>

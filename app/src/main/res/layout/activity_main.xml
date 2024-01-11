@@ -3,6 +3,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:id="@+id/QuestionTV"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -15,25 +16,20 @@
         android:layout_gravity="center"
         android:text="Are all fruits Sweet?"
         android:textSize="25dp"
-
-
         />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-
-        >
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/TrueTB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="bottom"
+        android:layout_gravity="center"
         android:text="True"
         android:textSize="25dp"
-
-
         />
 
 
@@ -43,23 +39,21 @@
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:text="False"
+        android:textSize="25dp"/>
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
         android:textSize="25dp"
-
-
-        />
-    </LinearLayout>
-
-
-
-
-
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Next Question"
-    android:textSize="25dp"
-    android:layout_gravity="center"
-    android:id="@+id/NextPC"/>
+        android:layout_gravity="center"
+        android:id="@+id/NextPC"/>
 
 
 

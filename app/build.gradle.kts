@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "org.pattersonclippers.myquest"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.pattersonclippers.myquest"
