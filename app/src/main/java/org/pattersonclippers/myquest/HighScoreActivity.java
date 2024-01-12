@@ -13,25 +13,18 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class HighScoreActivity extends AppCompatActivity {
-
     TextView nameTV, scoreTV;
-
     FirebaseDatabase database;
-
     DatabaseReference myRef;
-
     public final String TAG = "AAAAAAAAA";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_high_score);
-
         nameTV = (TextView) findViewById(R.id.NewTV);
         scoreTV = (TextView) findViewById(R.id.NewTV2);
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("My score");
-
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -44,7 +37,6 @@ public class HighScoreActivity extends AppCompatActivity {
                 int score = value.getFinalScore();
                 scoreTV.setText(""+score);
             }
-
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value

@@ -17,17 +17,5 @@
         android:textSize="30dp"
         android:id="@+id/NewTV2"
         />
-
-
-
-
-
-
-
-
-
-
-
-
 </LinearLayout>
 
