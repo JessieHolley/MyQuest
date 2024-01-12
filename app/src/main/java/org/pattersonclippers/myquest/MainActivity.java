@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView QuestionTV, scoreF;
+    TextView QuestionTV;
 
     Button  TrueTB;
 
@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
        QuestionTV = (TextView) findViewById(R.id.QuestionBT);
 
-       
 
        TrueTB = (Button) findViewById(R.id.TrueTB);
 
@@ -111,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
                 else {
                     Intent myIntent=new Intent(MainActivity.this, ScoreActivity.class);
-                    myIntent.putExtra("score", String.valueOf(scoreF));
+                    myIntent.putExtra("score", finalScore);
                     startActivity(myIntent);
                 }
 
