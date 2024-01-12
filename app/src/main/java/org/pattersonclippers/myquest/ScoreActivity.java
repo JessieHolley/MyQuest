@@ -54,6 +54,8 @@ public class ScoreActivity extends AppCompatActivity {
                 myName = nameET.getText().toString();
                 myHS = new HighScore(score, myName);
                 myRef.setValue(myHS);
+                Intent hsIntent = new Intent(ScoreActivity.this, HighScoreActivity.class);
+                startActivity(hsIntent);
             }
         });
     }

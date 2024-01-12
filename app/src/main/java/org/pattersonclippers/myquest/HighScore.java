@@ -4,6 +4,11 @@ public class HighScore {
     private int finalScore;
     private String name;
 
+    public HighScore(){
+        finalScore = 0;
+        name = "name";
+    }
+
     public HighScore(int finalScore, String name) {
         this.finalScore = finalScore;
         this.name = name;
