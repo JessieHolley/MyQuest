@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "373255735396",
+    "firebase_url": "https://fruitquiz-a2457-default-rtdb.firebaseio.com",
+    "project_id": "fruitquiz-a2457",
+    "storage_bucket": "fruitquiz-a2457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373255735396:android:3576fa90c3715b22fcf771",
+        "android_client_info": {
+          "package_name": "org.pattersonclippers.myquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmZrifgF7_WCWaf_K2wVWRgwEUt_AFKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

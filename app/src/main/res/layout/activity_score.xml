@@ -16,8 +16,21 @@ android:orientation="vertical"
         android:id="@+id/scoreF"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameET"
+        android:hint="Name here"
+        android:textSize="26dp"
+        />
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HighBT"
+        android:text="HighScores"
+        android:textSize="26dp"
+        />
 
 
     </LinearLayout>
